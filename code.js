@@ -1,5 +1,5 @@
  /*
- / Transforme les données afin qu'elles ne soient pas utilisables directemment.
+ / Transforme les données afin qu'elles ne soient pas utilisables directement.
 */
 function coding(st) {
   res = "";
