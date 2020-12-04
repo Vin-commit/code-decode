@@ -11,7 +11,7 @@ function coding(st) {
 }
 
  /*
- / Fournit une chaîne utilisable à partir d'une chaîne transformée.
+ / Fournit une chaîne utilisable à partir d'une chaîne de données transformées.
 */
 function decoding(st) {
   res = "";
