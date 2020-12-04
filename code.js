@@ -12,7 +12,7 @@ function coding(st)
 }
 
  /*
- / Fournit une chaîne utilisable à partir d'une chaîne de données transformées.
+ / Fournit une chaîne utilisable à partir d'une chaîne de données transformées par la fonction ci-dessus.
 */
 function decoding(st) 
 {
