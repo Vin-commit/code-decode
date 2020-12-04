@@ -1,5 +1,5 @@
  /*
- / Cette fonction est appelée afin de stocker des données qui ne sont pas utilisables directemment.
+ / Transforme les données afin qu'elles ne soient pas utilisables directemment.
 */
 function coding(st) {
   res = "";
@@ -11,7 +11,7 @@ function coding(st) {
 }
 
  /*
- / Cette fonction est appelée afin de fournir une chaîne exploitable à partir d'une chaîne codée.
+ / Fournit une chaîne utilisable à partir d'une chaîne transformée.
 */
 function decoding(st) {
   res = "";
