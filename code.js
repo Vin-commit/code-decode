@@ -1,7 +1,8 @@
  /*
  / Transforme les données afin qu'elles ne soient pas utilisables directement.
 */
-function coding(st) {
+function coding(st) 
+{
   res = "";
   for (let i = 0; i < st.length; i++) 
   {
@@ -13,9 +14,11 @@ function coding(st) {
  /*
  / Fournit une chaîne utilisable à partir d'une chaîne de données transformées.
 */
-function decoding(st) {
+function decoding(st) 
+{
   res = "";
-  for (let i = 0; i < st.split('\\').length; i++) {
+  for (let i = 0; i < st.split('\\').length; i++) 
+  {
     res = res + String.fromCharCode(parseInt(String(st.split('\\')[i]), 10));
   }
   return res;
