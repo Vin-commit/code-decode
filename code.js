@@ -19,7 +19,7 @@ function decoding(st)
   res = "";
   for (let i = 0; i < st.split('\\').length; i++) 
   {
-    res = res + String.fromCharCode(parseInt(st.split('\\')[i], 10));
+    res = res + String.fromCharCode(parseInt(String(st.split('\\')[i]), 10));
   }
   return res;
 }  
