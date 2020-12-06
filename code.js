@@ -6,7 +6,7 @@ function coding(st)
   res = "";
   for (let i = 0; i < st.length; i++) 
   {
-    res = res + st.charCodeAt(i)+"\\";
+    res = res + (st.charCodeAt(i)+12)+"\\";
   }
   return res;
 }
@@ -19,7 +19,7 @@ function decoding(st)
   res = "";
   for (let i = 0; i < st.split('\\').length; i++) 
   {
-    res = res + String.fromCharCode(parseInt(String(st.split('\\')[i]), 10));
+    res = res + String.fromCharCode(parseInt(String(st.split('\\')[i]), 10)-12);
   }
   return res;
 }  
