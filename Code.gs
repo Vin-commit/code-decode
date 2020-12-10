@@ -16,7 +16,7 @@ function coding(st)
  /*
  / Fournit une chaîne utilisable à partir d'une chaîne de données transformées par la fonction ci-dessus qui est donnée en paramètre.
  /
- /Usage : se placer dans une cellule du tableur lié et entrez =coding("<chaine transformée>") qui renvoie sa chaîne utilisable. 
+ /Usage : se placer dans une cellule du tableur lié et entrez =decoding("<chaine transformée>") qui renvoie sa chaîne utilisable. 
  /
 */
 function decoding(st)
