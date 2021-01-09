@@ -8,7 +8,7 @@ function coding(st)
   res = "";
   for (let i = 0; i < st.length; i++) 
   {
-    res = res + (st.charCodeAt(i)+12)+'-';
+    res += (st.charCodeAt(i)+12)+'-';
   }
   return res;
 }
