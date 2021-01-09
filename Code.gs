@@ -23,6 +23,7 @@ function decoding(st)
 {
   res = "";
   for (let i = 0; i < st.split('-').length; i++) 
+  /* st.split('-') découpe st à chaque '-' et met les éléments obtenus dans un tableau. */
   {
     res = res + String.fromCharCode(parseInt(String(st.split('-')[i]), 10)-15);
   }
